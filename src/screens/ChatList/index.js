@@ -1,12 +1,13 @@
-import { View, Text } from "react-native";
+import { Text } from "react-native";
+import * as S from "./styles";
 
 const ChatList = () => {
   return (
-    <View style={{ flex: 1 }}>
+    <S.Container>
       <Text style={{ fontSize: 22, fontFamily: "thin", color: "red" }}>
         ChatList
       </Text>
-    </View>
+    </S.Container>
   );
 };
 
